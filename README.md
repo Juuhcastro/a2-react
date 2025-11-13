@@ -1,16 +1,42 @@
-# React + Vite
+# A2 – Página Inicial em React  
+Disciplina: Programação para Web II  
+Curso: TADS – 4º Período  
+Aluno(a): Juliana Rodrigues de Castro Ferreira  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Descrição do Projeto
+Este repositório contém o desenvolvimento da atividade avaliativa A2, que consistiu na criação de uma página inicial em React, reproduzindo o layout apresentado no protótipo disponibilizado no Figma. O objetivo foi aplicar conceitos básicos do React, componentização, organização de código e estilização por meio de CSS.
 
-Currently, two official plugins are available:
+A página foi estruturada com base nos elementos principais do protótipo e adaptada para funcionamento real dentro de um projeto React criado com Vite.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tecnologias Utilizadas
+- **React**
+- **Vite**
+- **JavaScript**
+- **CSS**
+- **React Router DOM**
 
-## React Compiler
+## Estrutura do Projeto
+A aplicação foi organizada em componentes para facilitar manutenção e leitura do código:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- `Header` – cabeçalho com navegação para a página inicial  
+- `Hero` – seção principal da página inicial  
+- `Footer` – rodapé com links de navegação e imagem decorativa  
+- `PageSection` – componente reutilizado nas páginas internas  
+- Páginas:
+  - Home  
+  - Destinos  
+  - Ofertas  
+  - Contato  
 
-## Expanding the ESLint configuration
+## Funcionalidades
+- Navegação entre páginas utilizando **React Router**  
+- Estruturação do layout em componentes funcionais  
+- Criação de telas adicionais conforme solicitado na atividade  
+- Estilização baseada no protótipo do Figma, respeitando fontes, cores e proporções  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Como executar o projeto
+Clonar o repositório e instalar as dependências:
+
+```bash
+npm install
+npm run dev
