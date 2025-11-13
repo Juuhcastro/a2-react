@@ -1,0 +1,38 @@
+.hero {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.hero__image {
+  width: 380px;
+  margin-bottom: 20px;
+}
+
+.hero__title {
+  font-family: 'Dosis', sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: #3F3056;
+}
+
+
+.hero__title span {
+  color: #EE24FF;
+}
+
+.hero__text {
+  color: #828282;
+  font-size: 16px;
+  margin-bottom: 12px;
+  line-height: 1.5;
+}
+.strong-black {
+  color: #3F3D56; /* roxo escuro do Figma */
+  font-weight: 700;
+}
+
+.strong-gray {
+  color: #828282; /* cinza do Figma */
+  font-weight: 700;
+}
